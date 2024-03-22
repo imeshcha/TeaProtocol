@@ -1,0 +1,55 @@
+/* frontend/public/styles.css */
+
+/* Reset default margin and padding */
+html, body, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Names List styles */
+#names {
+    margin-top: 20px;
+}
+
+#names h2 {
+    margin-bottom: 10px;
+}
+
+#name-list {
+    list-style: none;
+    padding: 0;
+}
+
+#name-list li {
+    margin-bottom: 5px;
+}
+
